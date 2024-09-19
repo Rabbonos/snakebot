@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"></script>
+    <script src="snake.js"></script>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div class="score-board">
+        <table>
+            <tr>
+                <th>Player</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>Snake 1</td>
+                <td id="score1">0</td>
+            </tr>
+            <tr>
+                <td>Snake 2</td>
+                <td id="score2">0</td>
+            </tr>
+        </table>
+    </div>
+    <canvas id="board"></canvas>
+</body>
+</html>
